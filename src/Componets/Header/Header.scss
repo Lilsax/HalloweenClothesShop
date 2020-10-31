@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+
+.cc {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.main-header {
+    background-color: #121212;
+    height: 100%;
+    color: white;
+}
+
+.active-color {
+    color: white;
+    margin-left: 0px;
+}
+
+.not-active {
+    color: #6D6D6D;
+    margin-left: 15px;
+}
+
+.first-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+
+
+}
+
+.icon {
+    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.sleman {
+    
+    & .slick-dots {
+        left: 412px; 
+        bottom: 320px;
+       }
+
+    & .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: white;
+        font-size: 4px;
+    }
+
+    & .slick-dots li button:before { 
+        color: #6F6F6F;
+    }
+
+
+    & .slick-next {
+        position: absolute;
+        left: 61.5%;
+        top: 10%; 
+        z-index: 30;
+
+    }
+
+    & .slick-prev {
+        left: 60%;
+        top: 10%;
+        position: absolute;
+        z-index: 30;
+        color: white;
+
+
+    }
+
+    & .slick-next:before {
+        color:white;
+        font-size: 15px;
+    }
+
+    & .slick-prev:before {
+        color:white;
+        font-size: 15px;
+    }
+}
+
+.hall-span {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: block;
+
+}

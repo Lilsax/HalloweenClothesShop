@@ -1,0 +1,49 @@
+.container {
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #2A2A2A;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+
+    & :first-child {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    & :last-child {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+}
+
+.span {
+    color: #E5E5E5;
+    font-size: 12px;
+    margin-left: 30px;
+    width: 37px;
+    cursor: pointer;
+}
+
+.border-buttom {
+    border-bottom: 5px solid #0078F2;
+    padding-bottom: 5px;
+    padding: 5px 10px;
+}
+
+.search-div {
+    background-color: #2A2A2A;
+    padding: 5px;
+    border-radius: 5px;
+
+    & input {
+        background-color: #2A2A2A;
+        border: none;
+        outline: none;
+        padding-left: 10px;
+    }
+}
